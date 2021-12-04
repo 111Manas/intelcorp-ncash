@@ -1,0 +1,16 @@
+.wrap-file-upload { 
+   width: 80%;
+    border-radius: 1rem;
+    border: 2px dashed #D0D0DB;
+    p {
+        margin: 0;
+        color: #5C6874;
+         font-size: 1.15rem;
+        &:first-child {
+            margin: 0.75rem 0 0 0;
+        }
+        &:last-child {
+            color: #1D61A4;
+        }
+    }
+}

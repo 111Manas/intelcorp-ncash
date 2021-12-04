@@ -1,0 +1,275 @@
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+/*************
+@Font Size
+ ************/
+.page-heading {
+  font-size: 1.35rem;
+  color: #303942;
+}
+.heading {
+  font-size: 35px;
+  font-weight: bold;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+input.input-field::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #e8e8e8;
+}
+.text-lightblue {
+  color: #76c1e2;
+}
+.fs-small {
+  font-size: small;
+}
+.ncash_fs-12 {
+  font-size: 12px;
+}
+.ncash_font-14 {
+  font-size: 14px;
+}
+.ncash_btn-greeting {
+  font-size: 14px !important;
+}
+.ncash_btn-let-start {
+  font-size: 12px !important;
+}
+.border-grey {
+  border: 2px solid #efefef;
+}
+.mb-50 {
+  margin-bottom: 50%;
+}
+.text-grey {
+  color: #efefef;
+}
+.input-field {
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid #fcfcfc;
+  border-radius: 8px;
+}
+.input-group-text {
+  background-color: #fff;
+  border: none;
+  border-right: 2px solid #efefef;
+  width: 15%;
+}
+.mt-85 {
+  margin-top: 85px;
+}
+.mt-120 {
+  margin-top: 120px;
+}
+.input-group-text .imageBackground {
+  background-color: #ddf3ff;
+  padding: 5px;
+  border-radius: 6px;
+}
+.ncash_imageBackgroundicon {
+  background-color: #ddf3ff;
+  padding: 5px;
+  border-radius: 10px;
+}
+.ncash_bg-lightpurple {
+  background-color: #ddf3ff;
+  padding: 5px;
+  border-radius: 10px;
+}
+.ncash_bg-lightblue {
+  background-color: #ddf3ff;
+
+  padding: 5px;
+  border-radius: 10px;
+}
+.ncash_bg-lightpink {
+  background-color: #fff1f1;
+
+  padding: 5px;
+  border-radius: 10px;
+}
+.ncash_bg-sky {
+  background-color: rgb(87, 131, 148);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.image-class {
+  margin: 10% 10% 0 10%;
+}
+.w-65 {
+  width: 65%;
+}
+
+.ncash_w-12 {
+  width: 12% !important;
+}
+.ncash_w-8 {
+  width: 6% !important;
+}
+.ncash_w-10 {
+  width: 10% !important;
+}
+.ncash_w-20 {
+  width: 20% !important;
+  min-width: 4rem !important;
+}
+.ncash_companyHeading {
+  margin-left: -10px;
+}
+.ncash_nav-link {
+  display: inline;
+  padding: 0 0.5rem;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.textDetail {
+  margin-top: 10%;
+}
+
+.ncash_w-group-wrapper {
+  width: 4rem !important;
+}
+.textDetail {
+  margin-top: 10%;
+}
+
+.ncash_otp-input {
+  width: 3rem !important;
+}
+.ncash_card-sub-text {
+  color: #c3c4c6;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.ncash_sub-text {
+  font-size: 0.8rem;
+}
+.ncash_card-rounded {
+  border-radius: 10px;
+}
+.btn-darkblue {
+  background-image: linear-gradient(to right, #1f66ad, #113459);
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  width: 60%;
+  font-size: 18px;
+}
+
+.btn-gradiant-blue {
+  background-image: linear-gradient(45deg, #8cd4ed, #105099);
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 2rem;
+  min-width: 15rem;
+  font-size: 18px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+}
+.icons {
+  width: 100%;
+}
+.inputCard {
+  border-radius: 15px;
+  border: none;
+}
+.rounded-15 {
+  border-radius: 15px;
+}
+.bg-grey {
+  background-image: linear-gradient(#efefef, #f2ebff);
+}
+.inline-button {
+  border: none;
+  background: transparent;
+  font-weight: bold;
+}
+.color-primary {
+  color: #5081b4;
+}
+
+.color-secondary {
+  color: gray;
+}
+
+/********accorion****/
+.accordion-button:focus {
+  z-index: 3;
+  border-color: white;
+  border: none;
+  background-image: linear-gradient(#efefef, #f2ebff);
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-image: linear-gradient(#efefef, #f2ebff);
+}
+.accordion-item:last-of-type {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.contractAccordion {
+  background: white !important;
+}
+
+/******** Employees ***************/
+.steps h3 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  span {
+    font-size: 1rem;
+    color: #747e89;
+    margin-left: 1rem;
+  }
+}
+.custom-table {
+  width: 100%;
+  thead {
+    tr {
+      th {
+        color: #5c6874;
+        font-weight: 700;
+        padding: 0.5rem 1rem;
+        border-left: 1px solid #cdd2d6;
+        background: #ececec;
+        text-align: center;
+        &:first-child {
+          border-left: none;
+          border-radius: 0.75rem 0 0 0.75rem;
+        }
+        &:last-child {
+          border-radius: 0 0.75rem 0.75rem 0;
+        }
+      }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        color: #919da8;
+        font-weight: normal;
+        padding: 0.5rem 1rem;
+        border-bottom: 1px solid #ececec;
+        text-align: center;
+        font-size: 0.96rem;
+      }
+    }
+  }
+}

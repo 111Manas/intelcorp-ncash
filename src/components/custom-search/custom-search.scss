@@ -1,0 +1,25 @@
+#custom-search {
+    width: 30rem;
+    height: 3rem;
+    display: flex;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    background: #fff;
+    button {
+        border: none;
+        background: #fff;
+        padding: 0 1rem;
+        border-radius: 0.5rem;
+    }
+    input[type=search] { 
+        -webkit-appearance: textfield;
+        width: 100%;
+        padding: 0.65rem;
+        border: none;
+        border-radius: 0.5rem;
+        &:focus {
+            outline: none;
+            outline-offset: none;
+        }
+    } 
+}

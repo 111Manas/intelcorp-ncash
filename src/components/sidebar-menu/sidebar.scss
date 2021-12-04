@@ -1,0 +1,18 @@
+ul.manu-list { list-style: none; margin: 0; padding: 0;
+    li {   display: flex; flex-direction: column; 
+        a {  font-size: 0.75rem; color:#c6f1ff; text-decoration: none; line-height: 0.5rem;
+           padding:1rem 0.5rem; align-items: center; 
+            img {
+                width: 2rem; height: 2rem;
+            }
+            &:hover {
+               background: #4b6f88; border-radius: 0.4rem;
+               color:#fff;  };
+               p {
+                   margin: 0;
+               }
+         }
+         
+    }
+}
+

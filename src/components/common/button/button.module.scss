@@ -1,0 +1,62 @@
+@import "../../../scss/mixins";
+
+.backContainer {
+  display: flex;
+  align-items: center;
+  border: none;
+
+  & img {
+    height: 1rem;
+    @include md {
+      height: 1.3rem;
+    }
+  }
+  & span {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    @include md {
+      font-size: 1.7rem;
+      margin-left: 1rem;
+    }
+  }
+}
+
+.cardButton {
+  height: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  .smallIcon {
+    height: 0.8rem;
+    width: "auto";
+  }
+}
+
+.inline-button {
+  border: none;
+  background: transparent;
+  color: #5081b4;
+  font-weight: bold;
+}
+.small-button {
+  background-image: linear-gradient(to right, #1f66ad, #113459);
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  width: 60%;
+  font-size: 14px;
+  color: #ffffff;
+}
+.inline-button {
+  border: none;
+  background: transparent;
+  font-weight: bold;
+}
+.color-primary {
+  color: #5081b4;
+}
+
+.color-secondary {
+  color: gray;
+}
